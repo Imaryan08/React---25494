@@ -6,6 +6,8 @@ export const Inventory = () => {
     notebooks: 13,
     pens: 40,
   });
+    // Create add and remove functions here that changes the
+    // state.
   return (
     <div
       style={{
@@ -41,7 +43,8 @@ export const Inventory = () => {
         <button className="circlularButton">-</button>
         <span>{inv.inkpens}</span>
       </div>
-      total: {100}
+            {/*calculate total and show it*/}
+      total: {0}
     </div>
   );
 };
